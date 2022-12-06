@@ -117,6 +117,44 @@ main{
     margin-left: 15px;
 }
 
+/* logboek */
+
+.logbook{
+    border: 2px solid var(--donkerblauw);
+    color: var(--donkerblauw);
+    margin-top:40px;
+    background-color:var(--geel);
+}
+.logbook > button{
+    border-top: 2px solid #72afa6;
+    border-left:none;
+    border-right:none;
+    border-bottom:none;
+    background-color: white;
+    display:flex;
+    justify-content:flex-start;
+    font-weight: 700;
+    border-radius: 0px;
+    color:var(--lichtblauw);
+    letter-spacing: 2px;
+    font-size: 20px;
+    line-height: 22px;
+    width:100%;
+    text-align:left;
+    padding: 40px 10px;
+    transition-duration: 300ms;
+}
+.logbook > button:hover{
+    background-color:var(--lichtblauw);
+    color:white;
+}
+.logbook > h2 {
+    font-size:34px;
+    margin-top:10px;
+    margin-bottom:10px;
+    text-align:center;
+}
+
 /* kalender */
 
 .calender{
