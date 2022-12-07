@@ -124,6 +124,7 @@ main{
     color: var(--donkerblauw);
     margin-top:40px;
     background-color:var(--geel);
+    height:800px;
 }
 .logbook > button{
     border-top: 2px solid #72afa6;
@@ -133,16 +134,18 @@ main{
     background-color: white;
     display:flex;
     justify-content:flex-start;
+    align-items: center;
     font-weight: 700;
     border-radius: 0px;
     color:var(--lichtblauw);
     letter-spacing: 2px;
-    font-size: 16px;
+    font-size: 24px;
     line-height: 22px;
     width:100%;
     text-align:left;
     padding: 40px 10px;
     transition-duration: 300ms;
+    height:150px;
 }
 .logbook > button:hover{
     background-color:var(--lichtblauw);
