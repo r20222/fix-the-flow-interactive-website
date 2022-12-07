@@ -176,7 +176,7 @@ section > header > h2 {
     display:flex;
     opacity:0;
     height:0px;
-    transition: opacity 1s linear 0.5s, height 0.5s;
+    transition: opacity 0.5s linear 0.5s, height 0.5s;
     
 }
 .active > ol > li{
