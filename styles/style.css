@@ -124,13 +124,17 @@ main{
     color: var(--donkerblauw);
     margin-top:40px;
     background-color:var(--geel);
-    height:800px;
+    height:1215px;
 }
-.logbook > button{
+/* #logboek-header-button{
+    border:none;
+    background-color:var(--geel); 
+} */
+.logbook > article > button{
     border-top: 2px solid #72afa6;
     border-left:none;
     border-right:none;
-    border-bottom:none;
+    border-bottom:2px solid #72afa6;;
     background-color: white;
     display:flex;
     justify-content:flex-start;
@@ -147,17 +151,59 @@ main{
     transition-duration: 300ms;
     height:150px;
 }
-.logbook > button:hover{
+.logbook > article > button:hover{
     background-color:var(--lichtblauw);
     color:white;
 }
-.logbook > h2 {
+.active ol > li > button:hover{
+    background-color:var(--lichtblauw);
+    color:white;
+}
+
+section > header{
+    display:flex;
+}
+section > header > h2 {
     font-size:34px;
     margin-top:10px;
     margin-bottom:10px;
     text-align:center;
 }
-
+.active{
+    /* border:2px solid var(--donkerblauw); */
+    height:700px;
+    background-color: var(--geel);
+    display:flex;
+    opacity:0;
+    height:0px;
+    transition: opacity 1s linear 0.5s, height 0.5s;
+    
+}
+.active > ol > li{
+    list-style-type: none;
+    margin-left:-40px;
+}
+.active > ol > li > button{
+    border-top: 2px solid #72afa6;
+    border-left:none;
+    border-right:2px solid var(--lichtblauw);
+    border-bottom:none;
+    background-color: white;
+    font-weight: 700;
+    border-radius: 0px;
+    color:var(--lichtblauw);
+    letter-spacing: 2px;
+    font-size: 24px;
+    line-height: 22px;
+    width: 100px;
+    padding: 40px 10px;
+    transition-duration: 300ms;
+    height:100px;
+    margin-left:0px;
+}
+.flex-logboek{
+    margin-left:20px;
+}
 /* kalender */
 
 .calender{

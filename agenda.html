@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
+    <script src="./scripts/script.js" defer></script>
     <title>Vini Mini Persoonlijke Omgeving</title>
     <link rel="shortcut icon" href="assets/favicon.ico.png">
 </head>
@@ -38,11 +39,39 @@
 <div class="flexbox-desktop">
 <!-- logboek -->
     <section class="logbook">
-        <h2>Logboek</h2>
-        <button>Overzicht van deze week</button>
-        <button>Overzicht van afgelopen weken</button>
-        <button>Zoek op allergeen</button>
+        <header>
+            <!-- <button id="logboek-header-button">pijl</button> -->
+            <h2>Logboek</h2>
+        </header>
+        <article>
+            <button onclick="opacity1()">Overzicht van deze week</button>
+            <div class="active">
+                <ol>
+                    <li><button>Ma</button></li>
+                    <li><button>Di</button></li>
+                    <li><button>Wo</button></li>
+                    <li><button>Do</button></li>
+                    <li><button>Vr</button></li>
+                    <li><button>Za</button></li>
+                    <li><button>Zo</button></li>
+                </ol>
+                <div class="flex-logboek">
+                <h3>Maandag 5-12-2022</h3>
+                <form>
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname" value="John"><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+                </div>
+            </div>
+            <button>Overzicht van afgelopen weken</button>
+            <button>Zoek op allergeen</button>
+        </article>
     </section>
+
+
     <!-- Kalender -->
     <section class="calender">
         <h2 class="month">November 2022</h2>
