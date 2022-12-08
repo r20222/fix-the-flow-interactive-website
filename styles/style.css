@@ -126,10 +126,6 @@ main{
     background-color:var(--geel);
     height:1215px;
 }
-/* #logboek-header-button{
-    border:none;
-    background-color:var(--geel); 
-} */
 .logbook > article > button{
     border-top: 2px solid #72afa6;
     border-left:none;
@@ -155,35 +151,25 @@ main{
     background-color:var(--lichtblauw);
     color:white;
 }
-.active ol > li > button:hover{
-    background-color:var(--lichtblauw);
-    color:white;
-}
-
-section > header{
-    display:flex;
-}
-section > header > h2 {
+.logbook > header > h2 {
     font-size:34px;
     margin-top:10px;
     margin-bottom:10px;
     text-align:center;
 }
-.active{
-    /* border:2px solid var(--donkerblauw); */
-    height:700px;
+.logbook div{
+    max-height:0px;
     background-color: var(--geel);
     display:flex;
+    transition: opacity 0.5s linear 0.3s, max-height 1.5s;
+    overflow:hidden;
     opacity:0;
-    height:0px;
-    transition: opacity 0.5s linear 0.5s, height 0.5s;
-    
 }
-.active > ol > li{
+.logbook div > ol > li{
     list-style-type: none;
     margin-left:-40px;
 }
-.active > ol > li > button{
+.logbook div > ol > li > button{
     border-top: 2px solid #72afa6;
     border-left:none;
     border-right:2px solid var(--lichtblauw);
@@ -201,9 +187,23 @@ section > header > h2 {
     height:100px;
     margin-left:0px;
 }
+.logbook div ol > li > button:hover{
+    background-color:var(--lichtblauw);
+    color:white;
+}
+
+.logbook div.active{
+    /* height:700px; */
+    max-height:2000px;
+    opacity:1;
+}
 .flex-logboek{
     margin-left:20px;
 }
+
+
+
+
 /* kalender */
 
 .calender{
