@@ -192,6 +192,10 @@ main{
     background-color:var(--lichtblauw);
     color:white;
 }
+/* button:focus-within{
+    background-color:var(--lichtblauw);
+    color:white;
+} */
 
 .logbook div.active{
     /* height:700px; */
