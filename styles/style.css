@@ -181,7 +181,8 @@ main{
     letter-spacing: 2px;
     font-size: 24px;
     line-height: 22px;
-    width: 100px;
+    width:15vw;
+    /* width: 100px; */
     padding: 40px 10px;
     transition-duration: 300ms;
     height:100px;
@@ -197,8 +198,26 @@ main{
     max-height:2000px;
     opacity:1;
 }
+
+/* styling inhoud */
 .flex-logboek{
     margin-left:20px;
+    margin-top:20px;
+}
+.logbook h3{
+    font-size:30px;
+}
+#cashewimg{
+    width:150px;
+    height:150px;
+}
+form{
+    margin-top:20px;
+    /* display:flex;
+    flex-direction: column; */
+}
+fieldset{
+    width:50vw;
 }
 
 

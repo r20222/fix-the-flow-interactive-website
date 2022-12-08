@@ -56,12 +56,17 @@
                 </ol>
                 <aside class="flex-logboek">
                 <h3>Maandag 5-12-2022</h3>
+                <img id="cashewimg" src="/assets/cashew.png">
                 <form>
-                    <label for="fname">First name:</label><br>
-                    <input type="text" id="fname" name="fname" value="John"><br>
-                    <label for="lname">Last name:</label><br>
-                    <input type="text" id="lname" name="lname" value="Doe"><br><br>
-                    <input type="submit" value="Submit">
+                    <fieldset>
+                        <legend>Cashew</legend>
+                        <input type="checkbox" id="cashew" name="cashew" value="cashew-genomen">
+                        <label for="cashew">Geef vandaag cashew poeder aan uw kind.</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Hou een dagboek bij:</legend>
+                        <textarea rows="7" cols="20" name="comment" placeholder="Hoe is het vandaag gegaan? Heeft uw kind vandaag allergische reacties ervaren?"></textarea>
+                    </fieldset>
                 </form>
                 </aside>
             </div>
