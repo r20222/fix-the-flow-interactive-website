@@ -192,10 +192,12 @@ main{
     background-color:var(--lichtblauw);
     color:white;
 }
-/* button:focus-within{
+button.button:focus{
     background-color:var(--lichtblauw);
     color:white;
-} */
+    outline: 5px solid black;
+}
+
 
 .logbook div.active{
     /* height:700px; */
