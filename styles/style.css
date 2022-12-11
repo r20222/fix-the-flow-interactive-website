@@ -23,7 +23,7 @@ nav a{
     text-decoration: none;
 }
 .Logo-ViniMini {
-    width:141.5px;
+    width:142px;
     height:100px;
     margin-top:10px;
 }
@@ -170,23 +170,16 @@ main{
     margin-left:-40px;
 }
 .logbook div > ol > li > button{
-    border-top: 2px solid #72afa6;
-    border-left:none;
     border-right:2px solid var(--lichtblauw);
-    border-bottom:none;
-    background-color: white;
     font-weight: 700;
     border-radius: 0px;
-    color:var(--lichtblauw);
     letter-spacing: 2px;
     font-size: 24px;
     line-height: 22px;
     width:15vw;
-    /* width: 100px; */
     padding: 40px 10px;
     transition-duration: 300ms;
     height:100px;
-    margin-left:0px;
 }
 .logbook div ol > li > button:hover{
     background-color:var(--lichtblauw);
@@ -197,23 +190,20 @@ button.button:focus{
     color:white;
     outline: 5px solid black;
 }
-
-
 .logbook div.active{
-    /* height:700px; */
     max-height:2000px;
     opacity:1;
 }
 
 /* styling inhoud */
-.flex-logboek{
+.flex-logbook{
     margin-left:20px;
     margin-top:20px;
 }
 .logbook h3{
     font-size:30px;
 }
-#cashewimg{
+#cashew-img{
     width:150px;
     height:150px;
 }
