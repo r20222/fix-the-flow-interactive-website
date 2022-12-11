@@ -195,11 +195,10 @@ button.button-day:focus{
     color:white;
     outline: 5px solid black;
 }
-.info-buttons:focus{
-    background-color:var(--lichtblauw);
-    color:white;
-    outline: 5px solid black;
-}
+/* .arrow-down{
+  position:absolute;
+  right:20px;
+} */
 .logbook div.active{
     max-height:2000px;
     opacity:1;
@@ -289,6 +288,12 @@ h3{
     margin-top:15px;
     margin-bottom:15px;
 }
+.info-buttons:focus{
+    background-color:var(--lichtblauw);
+    color:white;
+    outline: 5px solid black;
+}
+
 /* de woorden in strong moeten linkjes worden */
 strong{
     color: var(--lichtblauw);
