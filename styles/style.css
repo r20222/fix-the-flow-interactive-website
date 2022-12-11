@@ -185,7 +185,17 @@ main{
     background-color:var(--lichtblauw);
     color:white;
 }
-button.button:focus{
+button.button-accordion:focus{
+    background-color:var(--lichtblauw);
+    color:white;
+    outline: 5px solid black;
+}
+button.button-day:focus{
+    background-color:var(--lichtblauw);
+    color:white;
+    outline: 5px solid black;
+}
+.info-buttons:focus{
     background-color:var(--lichtblauw);
     color:white;
     outline: 5px solid black;
