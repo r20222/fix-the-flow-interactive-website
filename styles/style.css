@@ -201,10 +201,11 @@ button.button-day:focus{
     color:white;
     outline: 5px solid black;
 }
-/* .arrow-down{
-  position:absolute;
-  right:20px;
-} */
+.arrow-down{
+  /* position:absolute;
+  right:20px; */
+  pointer-events: none;
+}
 .logbook div.active{
     max-height:2000px;
     opacity:1;
