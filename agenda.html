@@ -73,6 +73,34 @@
             
             <!-- button 2 test -->
             <button class="button-accordion">Overzicht van de afgelopen weken<img class="arrow-down" src="assets/arrow-down.svg"></button>
+            <div class="expand">
+                <ol>
+                    <li><button class="button-day" tabindex="-1">Ma</button></li>
+                    <li><button class="button-day" tabindex="-1">Di</button></li>
+                    <li><button class="button-day" tabindex="-1">Wo</button></li>
+                    <li><button class="button-day" tabindex="-1">Do</button></li>
+                    <li><button class="button-day" tabindex="-1">Vr</button></li>
+                    <li><button class="button-day" tabindex="-1">Za</button></li>
+                    <li><button class="button-day" tabindex="-1">Zo</button></li>
+                </ol>
+                <aside class="flex-logbook">
+                <h3>Maandag 5-12-2022</h3>
+                <img id="cashew-img" alt="afbeelding-van-een-cashew" src="assets/cashew.png">
+                <form>
+                    <fieldset>
+                        <legend>Cashew</legend>
+                        <input tabindex="-1" type="checkbox" id="cashew" name="cashew" value="cashew-taken">
+                        <label for="cashew">Geef vandaag cashew poeder aan uw kind.</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Hou een dagboek bij:</legend>
+                        <textarea tabindex="-1" rows="7" cols="20" name="comment" placeholder="Hoe is het vandaag gegaan? Heeft uw kind vandaag allergische reacties ervaren?"></textarea>
+                    </fieldset>
+                </form>
+                </aside>
+            </div>
+            
+            
             <button class="button-accordion">Zoek op allergeen<img class="arrow-down" src="assets/arrow-down.svg"></button>
         </article>
     </section>
