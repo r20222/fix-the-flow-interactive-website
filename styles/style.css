@@ -125,6 +125,7 @@ main{
     margin-top:40px;
     background-color:var(--geel);
     height:1215px;
+    overflow: hidden;
 }
 .logbook > article > button{
     border-top: 2px solid #72afa6;
@@ -190,6 +191,11 @@ button.button-accordion:focus{
     color:white;
     outline: 5px solid black;
 }
+button.button-accordion:focus{
+    background-color:var(--lichtblauw);
+    color:white;
+    outline: 5px solid black;
+}
 button.button-day:focus{
     background-color:var(--lichtblauw);
     color:white;
@@ -202,6 +208,7 @@ button.button-day:focus{
 .logbook div.active{
     max-height:2000px;
     opacity:1;
+
 }
 
 /* styling inhoud */
@@ -222,9 +229,15 @@ form{
     flex-direction: column; */
 }
 fieldset{
-    width:50vw;
+    width:60vw;
 }
-
+input[type='checkbox'] {
+    width:30px;
+    height:30px;
+}
+form  label{
+    font-size:1.5rem;
+}
 
 
 

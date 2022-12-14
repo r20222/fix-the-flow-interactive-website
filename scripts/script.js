@@ -1,14 +1,17 @@
-let button = document.querySelector('.button-accordion');
-let weekOverview = document.querySelector('.expand');
-let tabButtons = document.querySelectorAll('.button-day');
+const buttons = document.querySelectorAll('.button-accordion');
+const tabButtons = document.querySelectorAll('.button-day');
+// console.log(buttons)
 
+buttons.forEach(button => {
+    // console.log(button)
+    button.addEventListener('click', openLogbookSection, false);
+})
 
-button.addEventListener('click', openLogbook);
-
-
-function openLogbook(){
+function openLogbookSection(event){
+    console.log(event) 
+    const panel = event.target.nextElementSibling;
     
-    weekOverview.classList.toggle('active');
+    panel.classList.toggle('active');
 
     tabButtons.forEach(function(tabButton) {
         if(tabButton.tabIndex == "-1"){
