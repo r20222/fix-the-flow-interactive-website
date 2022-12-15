@@ -240,7 +240,21 @@ form  label{
     font-size:1.5rem;
 }
 
+/* inhoud 2e knop */
 
+
+.button2{
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column; 
+}
+
+.button2 > ol{
+    display: flex;
+}
+.week-overview{
+    width: 50vw !important;
+}
 
 /* kalender */
 

@@ -21,8 +21,6 @@ function openLogbookSection(event){
             tabButton.tabIndex="-1";
         }
     })
-    
-    // test
 }
 
 
