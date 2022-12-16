@@ -243,14 +243,16 @@ form  label{
 /* inhoud 2e knop */
 
 
-.button2{
+#button2{
     display:flex;
-    justify-content: flex-start;
     flex-direction: column; 
 }
 
-.button2 > ol{
+#button2 > ol{
     display: flex;
+}
+#button2 button{
+    justify-content: flex-start;
 }
 .week-overview{
     width: 50vw !important;
@@ -259,9 +261,11 @@ form  label{
 /* inhoud 3e knop */
 #button3 button{
     width:100vw;
-    
+    justify-content: flex-start;
 }
-
+/* #button3{
+    margin-right:20px;
+} */
 /* kalender */
 
 .calender{
