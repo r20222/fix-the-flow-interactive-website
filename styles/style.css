@@ -256,6 +256,12 @@ form  label{
     width: 50vw !important;
 }
 
+/* inhoud 3e knop */
+#button3 button{
+    width:100vw;
+    
+}
+
 /* kalender */
 
 .calender{
