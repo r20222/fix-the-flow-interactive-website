@@ -19,7 +19,7 @@ function openLogbookSection(event){
     const panel = event.target.nextElementSibling;
     panel.classList.toggle('active');
 
-    // let img = event.target.srcElement.firstElementChild.attributes.src;
+    // let img = event.target.srcElement.firstElementChild;
     // console.log(img);
    
     // if (img.src.match("assets/arrow-down.svg")) {
