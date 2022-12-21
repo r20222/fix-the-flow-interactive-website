@@ -122,9 +122,8 @@ main{
 .logbook{
     border: 2px solid var(--donkerblauw);
     color: var(--donkerblauw);
-    margin-top:40px;
+    margin-top:2.5rem;
     background-color:var(--geel);
-    height:1215px;
     overflow: hidden;
 }
 .logbook > article > button{
@@ -140,13 +139,13 @@ main{
     border-radius: 0px;
     color:var(--lichtblauw);
     letter-spacing: 2px;
-    font-size: 24px;
-    line-height: 22px;
+    font-size: 1.5rem;
+    line-height: 1.375rem;
     width:100%;
     text-align:left;
     padding: 40px 10px;
     transition-duration: 300ms;
-    height:150px;
+    height:9.375rem;
 }
 .logbook > article > button:hover{
     background-color:var(--lichtblauw);
