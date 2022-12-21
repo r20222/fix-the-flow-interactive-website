@@ -16,34 +16,57 @@ function openLogbookSection(event){
 
     console.log(event) 
     console.log(event.target.nextElementSibling)
+    
+// opnieuw een probeersel
 
-    const transform = event.target.firstElementChild;
-    transform.classList.toggle('arrow-transform');
+    const btn1 = document.getElementById('button1');
+    const btn2 = document.getElementById('button2');
+    const btn3 = document.getElementById('button3');
+    const arrow1 = document.getElementById('arrow1');
+    const arrow2 = document.getElementById('arrow2');
+    const arrow3 = document.getElementById('arrow3');
     const panel = event.target.nextElementSibling;
-    panel.classList.toggle('active');
     
+if(panel == btn1){
+    btn1.classList.toggle('active');
+    arrow1.classList.toggle('arrow-transform')
+    arrow2.classList.remove('arrow-transform')
+    arrow3.classList.remove('arrow-transform')
+    btn2.classList.remove('active');
+    btn3.classList.remove('active');
+} else if (panel == btn2){
+    btn2.classList.toggle('active');
+    arrow2.classList.toggle('arrow-transform')
+    arrow1.classList.remove('arrow-transform')
+    arrow3.classList.remove('arrow-transform')
+    btn1.classList.remove('active');
+    btn3.classList.remove('active');
+} else if (panel == btn3){
+    btn3.classList.toggle('active');
+    arrow3.classList.toggle('arrow-transform')
+    arrow1.classList.remove('arrow-transform')
+    arrow2.classList.remove('arrow-transform')
+    btn1.classList.remove('active');
+    btn2.classList.remove('active');
+}
 
-    let allActives = document.getElementsByClassName('active');
-    console.log(allActives);
 
-    // allActives.forEach(blabla =>{
-    //     blabla.classList.remove('active');
-    // })
+// Hieronder een werkende code die alles laat uitklappen (klapt niet in als je andere opent).
+    // const transform = event.target.firstElementChild;
+    // transform.classList.toggle('arrow-transform');
+    // const panel = event.target.nextElementSibling;
+    // panel.classList.toggle('active');
 
-    // const checkAll = panel.querySelectorAll('.active');
-    // checkAll.forEach(undo =>{
-    //     undo.classList.remove('active')
-    // })
+
+    // nieuw probeersel laat wel de andere sluiten, maar sluit niet als je nog eens klikt.
+    // let klasactives = document.querySelectorAll('.active');
+    // [].forEach.call(klasactives, function(el) {
+    //     el.classList.remove("active");
+    // });
+    // panel.classList.add('active');
+
     
-    // console.log(checkAll)
-    // panel.querySelectorAll('.active')
-    //     .forEach(button => button.classList.toggle('.active'));
-        // panel.classList.toggle('active');
-       
-   
-    
-
-    // hieronder een werkende code voor de 3 buttons tegelijk
+    // hieronder een werkende code voor de arrow 3 buttons tegelijk
     // let arrowDown = document.querySelectorAll('.arrow-down')
     
     // arrowDown.forEach(down =>{
