@@ -5,6 +5,8 @@ const tabButtons = document.querySelectorAll('.button-day');
 buttons.forEach(button => {
     // console.log(button)
     button.addEventListener('click', openLogbookSection, false);
+
+    
 })
 
 // arrow up and down on click 
@@ -12,13 +14,34 @@ buttons.forEach(button => {
 
 function openLogbookSection(event){
 
-    // console.log(event) 
-    // console.log(event.target.firstElementChild)
+    console.log(event) 
+    console.log(event.target.nextElementSibling)
 
     const transform = event.target.firstElementChild;
+    transform.classList.toggle('arrow-transform');
     const panel = event.target.nextElementSibling;
     panel.classList.toggle('active');
-    transform.classList.toggle('arrow-transform');
+    
+
+    let allActives = document.getElementsByClassName('active');
+    console.log(allActives);
+
+    // allActives.forEach(blabla =>{
+    //     blabla.classList.remove('active');
+    // })
+
+    // const checkAll = panel.querySelectorAll('.active');
+    // checkAll.forEach(undo =>{
+    //     undo.classList.remove('active')
+    // })
+    
+    // console.log(checkAll)
+    // panel.querySelectorAll('.active')
+    //     .forEach(button => button.classList.toggle('.active'));
+        // panel.classList.toggle('active');
+       
+   
+    
 
     // hieronder een werkende code voor de 3 buttons tegelijk
     // let arrowDown = document.querySelectorAll('.arrow-down')

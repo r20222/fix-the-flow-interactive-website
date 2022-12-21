@@ -204,10 +204,12 @@ button.button-day:focus{
   /* position:absolute;
   right:20px; */
   pointer-events: none;
+  transition-duration: 1s;
 }
 
 .arrow-transform{
     transform:rotate(180deg);
+    transition-duration: 1s;
 }
 
 .logbook div.active{
