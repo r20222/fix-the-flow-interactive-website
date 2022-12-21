@@ -152,9 +152,9 @@ main{
     color:white;
 }
 .logbook > header > h2 {
-    font-size:34px;
-    margin-top:10px;
-    margin-bottom:10px;
+    font-size:2.125rem;
+    margin-top:0.625rem;
+    margin-bottom:0.625rem;
     text-align:center;
 }
 .logbook div{
@@ -174,12 +174,12 @@ main{
     font-weight: 700;
     border-radius: 0px;
     letter-spacing: 2px;
-    font-size: 24px;
-    line-height: 22px;
+    font-size: 1.5rem;
+    line-height: 1.375rem;
     width:15vw;
     padding: 40px 10px;
     transition-duration: 300ms;
-    height:100px;
+    height:6.25rem;
 }
 .logbook div ol > li > button:hover{
     background-color:var(--lichtblauw);
@@ -207,25 +207,25 @@ button.button-day:focus{
 }
 
 .logbook div.active{
-    max-height:2000px;
+    max-height:125rem;
     opacity:1;
 
 }
 
 /* styling inhoud */
 .flex-logbook{
-    margin-left:20px;
-    margin-top:20px;
+    margin-left:1.25rem;
+    margin-top:1.25rem;
 }
 .logbook h3{
-    font-size:30px;
+    font-size:1.875rem;
 }
 #cashew-img{
-    width:150px;
-    height:150px;
+    width:9.375rem;
+    height:9.375rem;
 }
 form{
-    margin-top:20px;
+    margin-top:1.25rem;
     /* display:flex;
     flex-direction: column; */
 }
@@ -233,8 +233,8 @@ fieldset{
     width:60vw;
 }
 input[type='checkbox'] {
-    width:30px;
-    height:30px;
+    width:1.875rem;
+    height:1.875rem;
 }
 form  label{
     font-size:1.5rem;
@@ -272,22 +272,22 @@ form  label{
     display:flex;
     flex-direction:column;
     align-items:center;
-    margin-top:50px;
+    margin-top:3.125rem;
 }
 .month{
     color:var(--donkerblauw);
-    font-size:38px;
+    font-size:2.375rem;
     margin:0px;
 }
 th{
-    font-size: 16px;
+    font-size: 1rem;
     color:var(--donkerblauw);
-    min-width: 40px;  
+    min-width: 2.5rem;  
 }
 td{
     color:var(--donkerblauw);
-    width:50px;
-    height:50px;
+    width:3.125rem;
+    height:3.125rem;
     text-align:center;
 }
 tr > td {
@@ -306,12 +306,12 @@ h3{
     text-align:center;
 }
 .description{
-    max-width: 238px;
+    max-width: 14.875rem;
     margin:auto;
 }
 .buttons{
-    margin-top:100px;
-    margin-bottom: 130px;
+    margin-top:6.25rem;
+    margin-bottom: 8.125rem;
 }
 .buttons > ul{
     list-style: none;
