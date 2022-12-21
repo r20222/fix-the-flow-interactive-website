@@ -247,6 +247,14 @@ form  label{
     font-size:1.5rem;
 }
 
+#button3{
+    display:flex;
+    flex-direction: column;
+}
+#info-logbook-3rd-button{
+    font-size: 1.5rem;
+}
+
 /* inhoud 2e knop */
 
 
