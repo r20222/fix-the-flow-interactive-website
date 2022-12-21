@@ -27,7 +27,7 @@ Dit is de link naar mijn Github pages: https://r20222.github.io/fix-the-flow-int
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
 
-Bij het maken van deze opdracht heb ik rekening geprobeert te houden met de HTML semantiek. Ik heb in de CSS gebruik gemaakt van custom properties en mediaqueries, ik heb geprobeerd te structureren in dezelfde volgorde als in de HTML. Ik heb voor het eerst gebruik gemaakt van JavaScript. In JS heb ik een addEventListener gebruikt en toggle, ook heb ik een functie geschreven met daarin oa een if/else.
+Bij het maken van deze opdracht heb ik rekening geprobeerd te houden met de HTML semantiek. Ik heb in de CSS gebruik gemaakt van custom properties en mediaqueries, ik heb geprobeerd te structureren in dezelfde volgorde als in de HTML. Ik heb voor het eerst gebruik gemaakt van JavaScript. In JS heb ik een addEventListener gebruikt en toggle, ook heb ik een functie geschreven met daarin oa een if/else.
 
 
 
