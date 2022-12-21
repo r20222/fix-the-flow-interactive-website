@@ -13,8 +13,12 @@ buttons.forEach(button => {
 function openLogbookSection(event){
 
     console.log(event) 
+    console.log(event.target.firstElementChild)
+
+    const transform = event.target.firstElementChild;
     const panel = event.target.nextElementSibling;
     panel.classList.toggle('active');
+    transform.classList.toggle('arrow-transform')
     // const probeersel = event.target;
 
     // hieronder probeersel
@@ -36,16 +40,16 @@ function openLogbookSection(event){
 
 
     // hieronder een werkende code voor de 3 buttons tegelijk
-    let arrowDown = document.querySelectorAll('.arrow-down')
+    // let arrowDown = document.querySelectorAll('.arrow-down')
     
-    arrowDown.forEach(down =>{
-        if (down.src.match("assets/arrow-down.svg")) {
-            down.src = "assets/arrow-up.svg";
-        }
-        else if(down.src.match("assets/arrow-up.svg")) {
-            down.src = "assets/arrow-down.svg";
-        }
-    })
+    // arrowDown.forEach(down =>{
+    //     if (down.src.match("assets/arrow-down.svg")) {
+    //         down.src = "assets/arrow-up.svg";
+    //     }
+    //     else if(down.src.match("assets/arrow-up.svg")) {
+    //         down.src = "assets/arrow-down.svg";
+    //     }
+    // })
     
 
     tabButtons.forEach(function(tabButton) {

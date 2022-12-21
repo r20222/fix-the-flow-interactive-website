@@ -206,10 +206,14 @@ button.button-day:focus{
   pointer-events: none;
 }
 
+.arrow-transform{
+    transform:rotate(180deg);
+}
+
 .logbook div.active{
     max-height:125rem;
     opacity:1;
-
+    
 }
 
 /* styling inhoud */
