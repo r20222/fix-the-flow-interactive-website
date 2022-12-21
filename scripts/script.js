@@ -12,32 +12,13 @@ buttons.forEach(button => {
 
 function openLogbookSection(event){
 
-    console.log(event) 
-    console.log(event.target.firstElementChild)
+    // console.log(event) 
+    // console.log(event.target.firstElementChild)
 
     const transform = event.target.firstElementChild;
     const panel = event.target.nextElementSibling;
     panel.classList.toggle('active');
-    transform.classList.toggle('arrow-transform')
-    // const probeersel = event.target;
-
-    // hieronder probeersel
-// let button1 = document.getElementById('#example');
-// let arrowDown1 = document.querySelector('.arrow-down1')
-
-
-// console.log(panel.classList.contains('active'));
-// if(panel.classList.contains('active')){
-//     arrowDown1.src = "assets/arrow-up.svg";
-// } else {
-//     arrowDown1.src = "assets/arrow-down.svg";
-// }
-
-
-
-
-
-
+    transform.classList.toggle('arrow-transform');
 
     // hieronder een werkende code voor de 3 buttons tegelijk
     // let arrowDown = document.querySelectorAll('.arrow-down')
@@ -51,7 +32,6 @@ function openLogbookSection(event){
     //     }
     // })
     
-
     tabButtons.forEach(function(tabButton) {
         if(tabButton.tabIndex == "-1"){
             tabButton.tabIndex="0";
