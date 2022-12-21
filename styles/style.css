@@ -161,7 +161,7 @@ main{
     max-height:0px;
     background-color: var(--geel);
     display:flex;
-    transition: opacity 0.5s linear 0.3s, max-height 1.5s;
+    transition: opacity 0.5s linear 0.3s, max-height 0.9s;
     overflow:hidden;
     opacity:0;
 }
