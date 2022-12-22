@@ -27,10 +27,6 @@ nav a{
     height:6.25rem;
     margin-top:0.625rem;
 }
-/* .menu{
-    width:2.8125rem;
-} */
-
 .menu-explained{
     display: flex;
     flex-direction: column;
@@ -89,6 +85,7 @@ h1 {
 .welcome-message-agenda{
     position:relative;
     margin-top: 9.375rem;
+    font-size: 1.7rem;
 }
 
 /* notificatieblok */
@@ -133,6 +130,7 @@ main{
     margin-top:2.5rem;
     background-color:var(--geel);
     overflow: hidden;
+    height: fit-content;
 }
 .logbook > article > button{
     border-top: 2px solid #72afa6;
@@ -534,17 +532,198 @@ nav ul li:nth-child(12){
     width:50%;
 }
 
+/* logboek */
+
+.flexbox-desktop{
+    display:flex;
+    justify-content: center;
+    margin-top:-40px;
+}
+
+.logbook{
+    border: 2px solid var(--donkerblauw);
+    color: var(--donkerblauw);
+    margin-top:8.3rem;
+    background-color:var(--geel);
+    overflow: hidden;
+    max-width:28rem;
+    min-width:28rem;
+}
+.logbook > header > h2 {
+    font-size:2.125rem;
+    margin-top:0.625rem;
+    margin-bottom:0.625rem;
+    text-align:center;
+}
+.logbook div{
+    /* max-height:0px; */
+    background-color: var(--geel);
+    display:flex;
+    transition: opacity 0.5s linear 0.3s, max-height 0.9s;
+    overflow:hidden;
+    opacity:0;
+    /* height:0px; */
+}
+.logbook div > ol > li{
+    list-style-type: none;
+    margin-left:-40px;
+}
+.button-day{
+    border-right:2px solid var(--lichtblauw);
+    font-weight: 700;
+    border-radius: 0px;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    line-height: 1.375rem;
+    /* width:15vw; */
+    width:6vw;
+    max-width: 3.5em;
+    padding: 40px 10px;
+    transition-duration: 300ms;
+    height:6.25rem;
+}
+.logbook div ol > li > button:hover{
+    background-color:var(--lichtblauw);
+    color:white;
+}
+button.button-accordion:focus{
+    background-color:var(--lichtblauw);
+    color:white;
+    outline: 5px solid black;
+}
+button.button-accordion:focus{
+    background-color:var(--lichtblauw);
+    color:white;
+    outline: 5px solid black;
+}
+button.button-day:focus{
+    background-color:var(--lichtblauw);
+    color:white;
+    outline: 5px solid black;
+}
+.arrow-down{
+  /* position:absolute;
+  right:20px; */
+  pointer-events: none;
+  transition-duration: 1s;
+  margin-left:auto;
+}
+
+.arrow-transform{
+    transform:rotate(180deg);
+    transition-duration: 1s;
+}
+
+.logbook div.active{
+    max-height:125rem;
+    opacity:1;
+    
+}
+
+/* styling inhoud */
+.flex-logbook{
+    margin-left:0.5rem;
+    margin-top:1.25rem;
+}
+.logbook h3{
+    font-size:1.875rem;
+}
+#cashew-img{
+    width:9.375rem;
+    height:9.375rem;
+}
+form{
+    margin-top:1.25rem;
+    /* display:flex;
+    flex-direction: column; */
+}
+fieldset{
+    /* width:18vw; */
+    width:21em;
+}
+input[type='checkbox'] {
+    width:1.875rem;
+    height:1.875rem;
+}
+form  label{
+    font-size:1.5rem;
+}
+
+#button3{
+    display:flex;
+    flex-direction: column;
+}
+#info-logbook-3rd-button{
+    font-size: 1.5rem;
+}
+
+/* inhoud 2e knop */
+
+
+#button2{
+    display:flex;
+    flex-direction: column; 
+}
+
+#button2 > ol{
+    display: flex;
+}
+#button2 button{
+    justify-content: flex-start;
+}
+.week-overview{
+    /* width: 50vw !important; */
+    max-width: 11em;
+}
+
+/* inhoud 3e knop */
+#button3 button{
+    width:100vw;
+    justify-content: flex-start;
+}
+
+
+
+/* kalendeeeeer mobileeee*/
+
+.calender{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:3.125rem;
+}
+.month{
+    color:var(--donkerblauw);
+    font-size:2.375rem;
+    margin:0px;
+}
+th{
+    font-size: 1rem;
+    color:var(--donkerblauw);
+    min-width: 6vw;  
+}
+td{
+    color:var(--donkerblauw);
+    height:6.4rem;
+    text-align:center;
+}
+tr > td {
+    border:1px solid var(--donkerblauw);;
+} 
+td > p{
+    display:none;
+}
+
 /* welkomstbericht agenda*/
 
 #desktop-welcome-agenda{
-    display:flex;
     margin-top: 180px;
 }
 .welcome-message-agenda{
     position:relative;
     margin-top: 0px;
-    margin-left: 30px;
     width:100%;
+    font-size: 2.3rem;
 }
 
 /* notificatieblok */
@@ -572,3 +751,4 @@ footer a{
     color: var(--donkerblauw);
 }
 }
+
