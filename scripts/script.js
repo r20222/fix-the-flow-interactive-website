@@ -5,8 +5,6 @@ const tabButtons = document.querySelectorAll('.button-day');
 buttons.forEach(button => {
     // console.log(button)
     button.addEventListener('click', openLogbookSection, false);
-
-    
 })
 
 // arrow up and down on click 
@@ -87,5 +85,15 @@ if(panel == btn1){
         }
     })
 }
+
+
+// dagen met taken krijgen gele kleur
+let tdp = document.querySelectorAll('td');
+
+tdp.forEach(function(td){
+    if(td.firstElementChild){
+        td.classList.add('yellow-mark-calender');
+    }
+});
 
 
