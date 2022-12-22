@@ -18,7 +18,7 @@ Ik heb bedacht om deze 2 userstories samen te voegen in een logboek. In dit logb
 
 <!-- Voeg een mooie poster visual toe 📸 -->
 
-![image](https://user-images.githubusercontent.com/101579892/209174138-e78db123-dec6-4094-95de-6b9f70d86035.png)
+![image](https://user-images.githubusercontent.com/101579892/209186703-a61425c7-52e1-4015-82c7-0c9dbff9bbd5.png)
 
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
