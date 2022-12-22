@@ -711,7 +711,8 @@ tr > td {
     border:1px solid var(--donkerblauw);;
 } 
 td > p{
-    display:none;
+    /* display:none; */
+    font-size: 0.7rem;
 }
 
 /* welkomstbericht agenda*/
