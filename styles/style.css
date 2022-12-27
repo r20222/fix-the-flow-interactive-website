@@ -125,7 +125,7 @@ main{
 /* logboek, vanaf hier nog even waarden omzetten naar rem enzo */
 
 .logbook{
-    border: 2px solid var(--donkerblauw);
+    border: none;
     color: var(--donkerblauw);
     margin-top:2.5rem;
     background-color:var(--geel);
@@ -133,10 +133,10 @@ main{
     height: fit-content;
 }
 .logbook > article > button{
-    border-top: 2px solid #72afa6;
+    border-top:none;
     border-left:none;
     border-right:none;
-    border-bottom:2px solid #72afa6;;
+    border-bottom:2px solid #72afa6;
     background-color: white;
     display:flex;
     justify-content:flex-start;
@@ -176,7 +176,6 @@ main{
     margin-left:-40px;
 }
 .logbook div > ol > li > button{
-    border-right:2px solid var(--lichtblauw);
     font-weight: 700;
     border-radius: 0px;
     letter-spacing: 2px;
@@ -194,12 +193,7 @@ main{
 button.button-accordion:focus{
     background-color:var(--lichtblauw);
     color:white;
-    outline: 5px solid black;
-}
-button.button-accordion:focus{
-    background-color:var(--lichtblauw);
-    color:white;
-    outline: 5px solid black;
+    outline: 3px solid black;
 }
 button.button-day:focus{
     background-color:var(--lichtblauw);
@@ -244,6 +238,7 @@ form{
 }
 fieldset{
     width:60vw;
+    border: none;
 }
 input[type='checkbox'] {
     width:1.875rem;
@@ -313,7 +308,7 @@ td{
     height:3.125rem;
     text-align:center;
 }
-tr > td {
+tr {
     border:1px solid var(--donkerblauw);;
 } 
 td > p{
@@ -440,8 +435,9 @@ footer a{
         height:200px;
     }
     
-    tr > td {
+    table, td{
         border:1px solid var(--donkerblauw);
+        border-collapse:collapse;
     }
     td > p{
         display:block;
@@ -543,7 +539,7 @@ nav ul li:nth-child(12){
 }
 
 .logbook{
-    border: 2px solid var(--donkerblauw);
+    border: none;
     color: var(--donkerblauw);
     margin-top:8.3rem;
     background-color:var(--geel);
@@ -558,13 +554,11 @@ nav ul li:nth-child(12){
     text-align:center;
 }
 .logbook div{
-    /* max-height:0px; */
     background-color: var(--geel);
     display:flex;
     transition: opacity 0.5s linear 0.3s, max-height 0.9s;
     overflow:hidden;
     opacity:0;
-    /* height:0px; */
 }
 .logbook div > ol > li{
     list-style-type: none;
@@ -587,11 +581,6 @@ nav ul li:nth-child(12){
 .logbook div ol > li > button:hover{
     background-color:var(--lichtblauw);
     color:white;
-}
-button.button-accordion:focus{
-    background-color:var(--lichtblauw);
-    color:white;
-    outline: 5px solid black;
 }
 button.button-accordion:focus{
     background-color:var(--lichtblauw);
